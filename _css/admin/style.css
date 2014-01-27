@@ -1,0 +1,248 @@
+* html, body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana;
+    font-size: 11px;
+}
+
+body {
+    background-color: #fdffd9;
+}
+
+a {
+    color: #000;
+}
+a:hover {
+    color: #F00;
+}
+
+textarea {
+    width: 50%;
+    height: 200px;
+}
+
+#top {
+    width: 100%;
+    height: 35px;
+    float: left;
+    clear: both;
+    border-bottom: 1px solid #AAA;
+}
+
+#top .adminLinks {
+    float: right;
+    margin: 10px;
+    padding: 0px;
+    list-style: none;
+}
+
+#content {
+    float: left;
+    clear: both;
+    width: 100%;
+}
+
+    #content #menu {
+        float: left;
+        width: 200px;
+    }
+    
+        #content #menu ul {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+            min-height: 400px;
+        }
+    
+            #content #menu ul li a {
+                display: block;
+                width: 185px;
+                padding: 5px 5px 5px 10px;
+                text-decoration: none;
+                color: #000;
+                border-bottom: 1px solid #AAA;
+            }
+            #content #menu ul li a:hover {
+                background: #fff669;
+                
+            }
+    #mainContent {
+        float: left;
+        padding: 10px;
+        width: 75%;
+        border-left: 1px solid #AAA;
+        min-height: 400px;
+    }
+
+.breaker {
+    border-bottom: 1px solid #AAA;
+    height: 2px;
+    width: 80%;
+    float: left;
+    clear: both;
+    margin: 0px 0px 10px 0px;
+}
+
+.data {
+    width: 100%;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    border: 1px solid #AAA;
+    border-radius: 5px;
+}
+    .data col:first-child {
+        width: 100%;
+    }
+    .data tr:nth-child(even){
+        background: #CCC;
+    }
+    .data th {
+        font-weight: bold;
+        text-align: left;
+        padding: 5px;
+        background: #AAA;
+    }
+    .data td {
+        white-space: nowrap;
+        padding: 5px 10px;
+        border-bottom: 1px solid #aaa;
+    }
+.form-element {
+    float: left;
+    clear: both;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+    .form-element input {
+        width: 300px;
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid #AAA;
+    }
+    .form-element label {
+        display: block;
+        min-width: 200px;
+        font-weight: bold;
+    }
+    .form-element input.submit {
+        width: auto;
+        padding: 5px 10px;
+        float: right;
+    }
+    .form-element.checkbox input, 
+    .form-element.checkbox label {
+        display: inline;
+        width: auto;
+    }
+    
+.button {
+    background: #F0F0F0;
+    border: 1px solid #AAA;
+    padding: 5px;
+    display: block;
+    float: right;
+    clear: both;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.admin_image {
+    width: 135px;
+    float: left;
+    border: 1px solid #CCC;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background: #CCC;
+}
+    .admin_image a {
+        width: 67px;
+        float: left;
+        display: block;
+        text-align: center;
+    }
+    
+.pagination {
+    float: left;
+    width: 100%;
+    clear: both;
+    text-align: center;
+}
+
+.imagedb_multiple_image {
+    margin-bottom: 10px;
+    float: left;
+    clear: both;
+}
+    .imagedb_multiple_image input, 
+    .imagedb_multiple_image label {
+        margin-top: 35px;
+        display: block;
+    }
+    .imagedb_multiple_image .small{
+        width: 25px;
+    }
+    .imagedb_multiple_image a, 
+    .imagedb_multiple_image input,
+    .imagedb_multiple_image label {
+        float: left;
+    }
+#image_list {
+    position: fixed;
+    top: 150px;
+    left: 0px;
+    -moz-box-shadow: 5px 5px 5px #888;
+    -webkit-box-shadow: 5px 5px 5px #888;
+    box-shadow: 5px 5px 5px #888;
+    z-index: 100;
+    width: 0px;
+    height: 400px;
+    background: #FFF;
+    border: 1px solid #CCC;
+    border-radius: 0px 15px 15px 0px;
+    padding: 10px;
+    overflow: auto;
+    text-align: center;
+}
+    #image_list h1 {
+        padding: 0px;
+    }
+    #image_list ul {
+        margin: 0px;
+        padding: 0px;
+    }
+    #image_list li {
+        list-style: none;
+    }
+
+#statusMessage{
+    width: auto;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background: #000;
+    right: 0px;
+    z-index: 20000;
+    margin: 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#statusMessage.success,
+.success{
+    border: 2px solid #39700F;
+    padding: 10px;
+    margin: 0px;
+    background: #66AD2F;
+    color: #fff;
+}
+
+#statusMessage.error,
+.error{
+    
+    background: #A22929;
+    color: #fff;
+    padding: 10px;
+    border: 2px solid #690D0D;
+}

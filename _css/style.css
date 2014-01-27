@@ -1,0 +1,36 @@
+.first-circle {
+    background: url(http://web-images.chacha.com/images/harry-potter-themed-weddings1920655767-apr-5-2012-600x464.jpg);
+    width: 140px;
+    height: 140px;
+    background-size: cover;
+}
+
+.second-circle {
+    background: url(http://web-images.chacha.com/images/harry-potter-themed-weddings-2016719281-apr-5-2012-600x450.jpg);
+    width: 140px;
+    height: 140px;
+    background-size: cover;
+}
+
+.third-circle {
+    background: url(http://bibliomantics.files.wordpress.com/2012/10/sorting-hat-table.jpg);
+    width: 140px;
+    height: 140px;
+    background-size: cover;
+}
+
+.first-slide {
+    background: url(http://www.bridalguide.com/sites/default/files/media/harry-potter-wedding-magic-wands-2.jpg);
+    background-size:cover;
+}
+
+.second-slide {
+    background: url(http://www.bridalguide.com/sites/default/files/media/harry-potter-wedding-sorting-hat-supporting.jpg);
+    background-size:cover;
+    background-position: 0px -230px;
+}
+
+.third-slide {
+    background: url(http://2.bp.blogspot.com/-5OuXEOlZFw0/TysNx2BW2bI/AAAAAAAAAhg/JyIec1BJUso/s1600/7-1%2BWedding%2B2.jpg);
+    background-size:cover;
+}
